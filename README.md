@@ -13,13 +13,21 @@ The `package.json` file belongs in the root directory of your project, next to t
 
 ####Gruntfile
 This file is named `Gruntfile.js` or `Gruntfile.coffee` and is used to configure or define tasks and load Grunt plugins.
-
 The `Gruntfile.js` or `Gruntfile.coffee` file is a valid JavaScript or CoffeeScript file that belongs in the root directory of your project, next to the `package.json` file, and should be committed with your project source.
+
+A `Gruntfile is` comprised of the following parts:
+
+1. The "wrapper" function
+2. Project and task configuration
+3. Loading Grunt plugins and tasks
+4. Custom tasks
+
+Read more [here](http://gruntjs.com/getting-started)
 
 ####[JSHint](http://www.jshint.com/about/)
 JSHint is a community-driven tool to detect errors and potential problems in JavaScript code and to enforce your team's coding conventions. It is very flexible so you can easily adjust it to your particular coding guidelines and the environment you expect your code to execute in. 
 
-####load-grunt-tasks
+####[load-grunt-tasks](https://github.com/sindresorhus/load-grunt-tasks)
 `require('load-grunt-tasks')(grunt);`
 Load multiple grunt tasks using globbing patterns
 Usually you would have to load each task one by one, which is unnecessarily cumbersome.
