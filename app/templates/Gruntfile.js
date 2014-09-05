@@ -10,12 +10,15 @@
 var proxySnippet = require('grunt-connect-proxy/lib/utils').proxyRequest;
 
 module.exports = function (grunt) {
-  // load-grunt-tasks : Load multiple grunt tasks using globbing patterns
+  // load-grunt-tasks: Load multiple grunt tasks using globbing patterns
   // Usually you would have to load each task one by one, which is unnecessarily cumbersome.
   // This module will read the dependencies/devDependencies/peerDependencies in your package.json 
   // and load grunt tasks that match the provided patterns. 
   // Read more here: https://github.com/sindresorhus/load-grunt-tasks
   require('load-grunt-tasks')(grunt);
+  
+  // time-grunt: Display the elapsed execution time of grunt tasks
+  // Read more here: https://www.npmjs.org/package/time-grunt
   require('time-grunt')(grunt);
 
   grunt.initConfig({
