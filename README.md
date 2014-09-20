@@ -36,3 +36,5 @@ This module will read the `dependencies`/`devDependencies`/`peerDependencies` in
 For those new to Bower, it’s an unopinionated, generic package manager for the web platform that aims to help with front-end package management. Bower works over git, its packages can be made up of any type of asset HTML/CSS/JS and use any type of transport (CJS/AMD/ES6 modules). It’s currently used by Bootstrap, Normalize, AngularJS and many other open-source projects.
 
 We have a plethora of tools, frameworks, languages, abstractions and platforms!
+
+[PhantomJS](http://phantomjs.org/) is a headless WebKit-based rendering engine and interpreter with a JavaScript API. Think of PhantomJS as a browser that doesn’t have any graphical user interface. PhantomJS can execute HTML, CSS, and JavaScript code. Because PhantomJS is not required to render a browser’s GUI, it can be used in display-less environments (for example, a CI server) to run tests. 
