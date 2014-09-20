@@ -41,3 +41,5 @@ We have a plethora of tools, frameworks, languages, abstractions and platforms!
 ####[PhantomJS](http://phantomjs.org/) 
 
 [PhantomJS](http://phantomjs.org/) is a headless WebKit-based rendering engine and interpreter with a JavaScript API. Think of PhantomJS as a browser that doesn’t have any graphical user interface. PhantomJS can execute HTML, CSS, and JavaScript code. Because PhantomJS is not required to render a browser’s GUI, it can be used in display-less environments (for example, a CI server) to run tests. 
+In our case, Grunt automatically spawns the PhantomJS instance, executes the code of our tests, reads the execution results using the PhantomJS API, and prints them out in the console. 
+
