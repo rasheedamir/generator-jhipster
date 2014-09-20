@@ -34,3 +34,5 @@ Usually you would have to load each task one by one, which is unnecessarily cumb
 This module will read the `dependencies`/`devDependencies`/`peerDependencies` in your `package.json` and load grunt tasks that match the provided patterns.
 
 For those new to Bower, it’s an unopinionated, generic package manager for the web platform that aims to help with front-end package management. Bower works over git, its packages can be made up of any type of asset HTML/CSS/JS and use any type of transport (CJS/AMD/ES6 modules). It’s currently used by Bootstrap, Normalize, AngularJS and many other open-source projects.
+
+We have a plethora of tools, frameworks, languages, abstractions and platforms!
