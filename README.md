@@ -43,3 +43,6 @@ We have a plethora of tools, frameworks, languages, abstractions and platforms!
 [PhantomJS](http://phantomjs.org/) is a headless WebKit-based rendering engine and interpreter with a JavaScript API. Think of PhantomJS as a browser that doesn’t have any graphical user interface. PhantomJS can execute HTML, CSS, and JavaScript code. Because PhantomJS is not required to render a browser’s GUI, it can be used in display-less environments (for example, a CI server) to run tests. 
 In our case, Grunt automatically spawns the PhantomJS instance, executes the code of our tests, reads the execution results using the PhantomJS API, and prints them out in the console. 
 
+[HTML5 Boilerplate](http://html5boilerplate.com/)
+When you start a new project, it's unlikely you start with a blank HTML file. You probably have some kind of starting template, or your IDE builds a rough file with some elements preloaded. That's what HTML5 Boilerplate is: a starter template to use on all your projects.
+HTML5 Boilerplate is a professional front-end template for building web applications or sites. It's chock-full of cross-browser compatibility features, CSS resets, base styles, and optional server configs to give your project the best possible start.
