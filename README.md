@@ -11,7 +11,9 @@ This file is used by [npm](https://npmjs.org/) to store metadata for projects pu
 
 The `package.json` file belongs in the root directory of your project, next to the `Gruntfile`, and should be committed with your project source. Running `npm install` in the same folder as a `package.json` file will install the correct version of each dependency listed therein.
 
-####Gruntfile
+####Grunt
+
+Gruntfile
 This file is named `Gruntfile.js` or `Gruntfile.coffee` and is used to configure or define tasks and load Grunt plugins.
 The `Gruntfile.js` or `Gruntfile.coffee` file is a valid JavaScript or CoffeeScript file that belongs in the root directory of your project, next to the `package.json` file, and should be committed with your project source.
 
@@ -23,6 +25,8 @@ A `Gruntfile is` comprised of the following parts:
 4. Custom tasks
 
 Read more [here](http://gruntjs.com/getting-started)
+
+Recommended: [Grunt Course](http://beta.pluralsight.com/courses/grunt-introduction)
 
 ####[JSHint](http://www.jshint.com/about/)
 JSHint is a community-driven tool to detect errors and potential problems in JavaScript code and to enforce your team's coding conventions. It is very flexible so you can easily adjust it to your particular coding guidelines and the environment you expect your code to execute in.
@@ -46,6 +50,4 @@ In our case, Grunt automatically spawns the PhantomJS instance, executes the cod
 ####[HTML5 Boilerplate](http://html5boilerplate.com/)
 When you start a new project, it's unlikely you start with a blank HTML file. You probably have some kind of starting template, or your IDE builds a rough file with some elements preloaded. That's what HTML5 Boilerplate is: a starter template to use on all your projects.
 HTML5 Boilerplate is a professional front-end template for building web applications or sites. It's chock-full of cross-browser compatibility features, CSS resets, base styles, and optional server configs to give your project the best possible start.
-
-####[Grunt Course](http://beta.pluralsight.com/courses/grunt-introduction)
-####[HTML5 Boilerplate Course](http://beta.pluralsight.com/courses/html5-boilerplate-get-started)
+Recommended : [HTML5 Boilerplate Course](http://beta.pluralsight.com/courses/html5-boilerplate-get-started)
