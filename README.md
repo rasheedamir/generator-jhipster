@@ -50,4 +50,5 @@ In our case, Grunt automatically spawns the PhantomJS instance, executes the cod
 ####[HTML5 Boilerplate](http://html5boilerplate.com/)
 When you start a new project, it's unlikely you start with a blank HTML file. You probably have some kind of starting template, or your IDE builds a rough file with some elements preloaded. That's what HTML5 Boilerplate is: a starter template to use on all your projects.
 HTML5 Boilerplate is a professional front-end template for building web applications or sites. It's chock-full of cross-browser compatibility features, CSS resets, base styles, and optional server configs to give your project the best possible start.
+
 Recommended : [HTML5 Boilerplate Course](http://beta.pluralsight.com/courses/html5-boilerplate-get-started)
