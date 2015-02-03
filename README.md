@@ -4,7 +4,20 @@ Full documentation and information is available on our website at [http://jhipst
 
 [Sync a fork](https://help.github.com/articles/syncing-a-fork)
 
+####Basic Installation
+First of all install 
+
+First, you'll need to install `yo` and other required tools:
+
+`npm install -g yo bower grunt-cli`
+
+`npm` is the package manager for `Node.js` and comes bundled with it.
+
 Grunt and Grunt plugins are installed and managed via [npm](https://npmjs.org/), the [Node.js](http://nodejs.org/) package manager. 
+
+####Yo 
+
+Yo is maintained by the Yeoman project and offers web application scaffolding, utilizing scaffolding templates we refer to as generators. You typically install yo and any generators you think you might use via npm.
 
 ####[package.json](https://www.npmjs.org/doc/files/package.json.html)
 This file is used by [npm](https://npmjs.org/) to store metadata for projects published as npm modules. You will list grunt and the Grunt plugins your project needs as [devDependencies](https://www.npmjs.org/doc/files/package.json.html#devdependencies) in this file.
