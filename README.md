@@ -52,3 +52,32 @@ When you start a new project, it's unlikely you start with a blank HTML file. Yo
 HTML5 Boilerplate is a professional front-end template for building web applications or sites. It's chock-full of cross-browser compatibility features, CSS resets, base styles, and optional server configs to give your project the best possible start.
 
 Recommended : [HTML5 Boilerplate Course](http://beta.pluralsight.com/courses/html5-boilerplate-get-started)
+
+####Bower 
+
+Bower is a package manager for the web which allows you to easily manage dependencies for your projects. This includes assets such as JavaScript, images and CSS. It is maintained by Twitter and the open-source community.
+
+`# Search for a dependency in the Bower registry.`
+`$ bower search <dep>`
+
+`# Install one or more dependencies.`
+`$ bower install <dep>..<depN>`
+
+`# List out the dependencies you have installed for a project.`
+`$ bower list`
+
+`# Update a dependency to the latest version available.`
+`$ bower update <dep>`
+
+####Grunt
+
+Grunt is a task-based command-line tool for JavaScript projects. It can be used to build projects, but also exposes several commands which you will want to use in your workflow.
+
+`# Preview an app you have generated (with Livereload).`
+`$ grunt serve`
+
+`# Run the unit tests for an app.`
+`$ grunt test`
+
+`# Build an optimized, production-ready version of your app.`
+`$ grunt`
